@@ -1,6 +1,6 @@
 # !/bin/bash
 set -e
-echo "Deploying to ${DEPLOYMENT_ENVIRONMENT}"
+echo "Deployin' to ${DEPLOYMENT_ENVIRONMENT}"
 echo $ACCOUNT_KEY_STAGING > service_key.txt
 base64 -i service_key.txt -d > ${HOME}/gcloud-service-key.json
 gcloud auth activate-service-account ${ACCOUNT_ID} --key-file ${HOME}/gcloud-service-key.json

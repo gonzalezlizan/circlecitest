@@ -10,7 +10,7 @@ jobs:
       CLUSTER_NAME: my-first-cluster-1
       CLUSTER_NAME_STAG: my-first-cluster-1-stag
       CLOUDSDK_COMPUTE_ZONE: us-central1-c 
-      CONTAINER_NAME: my-first-cluster-1
+      CONTAINER_NAME: default-pool
       IMAGE: my-first-cluster-1
       REG_ID: my-first-cluster-1
       REG_ID_PROD: my-first-cluster-1-prod

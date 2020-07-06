@@ -5,12 +5,12 @@ jobs:
       - image: wecs/circle-ci-gcloud-node:0.1.0
     working_directory: ~/workspace
     environment:
-      DEPLOYMENT_NAME: my-first-cluster-1
+      DEPLOYMENT_NAME: my-first-cluster-122
       PROJECT_ID: circlecitest-282416
       CLUSTER_NAME: my-first-cluster-1
       CLUSTER_NAME_STAG: my-first-cluster-1-stag
       CLOUDSDK_COMPUTE_ZONE: us-central1-c 
-      CONTAINER_NAME: default-pool
+      CONTAINER_NAME: my-first-cluster-1
       IMAGE: my-first-cluster-1
       REG_ID: my-first-cluster-1
       REG_ID_PROD: my-first-cluster-1-prod

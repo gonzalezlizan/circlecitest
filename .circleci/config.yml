@@ -5,7 +5,7 @@ jobs:
       - image: wecs/circle-ci-gcloud-node:0.1.0
     working_directory: ~/workspace
     environment:
-      DEPLOYMENT_NAME: ci-cd
+      DEPLOYMENT_NAME: ci-cdaa
       PROJECT_ID: circlecitest-282416
       CLUSTER_NAME: my-first-cluster-1
       CLUSTER_NAME_STAG: my-first-cluster-1-stag
